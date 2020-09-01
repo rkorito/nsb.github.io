@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  height: 100%;
+	 position: relative;
+    min-height: 100%;
+}
+
+body {
+	 margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
+
+.logo {
+	width: 100;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('woman1.jpg');
+  /* Full height */
+  height: 300px;  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* image used */
+  background-image: url('hand.jpg');
+
+  /* Full height */
+	height: 610px;  
+
+  /* Scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	margin-top: 50px;
+	padding-left: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	width: 50%;
+}
+
+h2 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: 11em;
+	margin-left: 13.5em;
+	color: #000;
+	font-weight: lighter;
+	
+	
+}
+
+.header {
+	padding-top: 25px;
+	font-size: 175%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border-style: ;
+}
+
+.subheader {
+	padding-left: 30px;
+	background-color: #F6B1CF;
+	padding-top: 25px;
+	height: 65px;
+	width: 970px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 80%;
+	color: #fff;
+	text-align: center;
+}
+
+.subheader0 {
+	padding-left: 30px;
+	padding-top: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:#eee;
+	height: 50px;
+	width: 970px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 70%;
+	color: #494949;
+	text-align: center;
+}
+
+.subcap1 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	color: #818181;
+}
+
+.subcap2 {
+	color: #F6B1CF;
+	text-align: center;
+	font-weight: lighter;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #F6B1CF;
+}
+
+table {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	margin: auto;
+	
+}
+
+caption {
+	font-weight: bold;
+	padding-top: 20px;
+	color: #F6B1CF;
+}
+
+form {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	float: left;
+	padding-left: 20px;
+}
+
+.contactpara {
+	padding-left: 20px;
+}
+
+input[name=myName]{
+	width: 260px;
+	height: 25px;
+}
+
+input[name=myEmail]{
+	width: 530px;
+	height: 25px;
+}
+
+input[name=mySubject]{
+	width: 530px;
+	height: 25px;
+}
+
+input[name=myMessage]{
+	width: 10px;
+	height: 10px;
+}
+
+.formtext {
+	font-size: 60%;
+	font-weight: light;
+	margin-top: 4px;
+}
+
+.formtext2 {
+	font-size: 60%;
+	font-weight: light;
+	padding-left: 269px;
+	margin-top: -12px;
+}
+
+.contactbox {
+	margin: auto;
+}
+
+.map {
+	float: right;
+	padding-right: 60px;
+	padding-bottom: 60px;
+}
+
+.maptext {
+	float: right;
+	font-size: 80%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: light;
+	padding-right: 85px;
+	padding-bottom: 35px;
+	margin: -20px;
+}
+
+hr {
+	width: 245px;
+}
+
+.productheader {
+	font-size: 25px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #000;
+	font-weight: 900;
+	padding-top: 65px;
+}
+
+.pinksub {
+	color: #F6B1CF;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.para {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.rectangle {
+	height: 40px;
+	width: 125px;
+	background-color: #000;
+	align-items: center;
+	padding-left: 22px;
+	color: #fff;
+	display: flex;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+
+}
+
+
+
+.sw1 {
+	height: 40px;
+	width: 40px;
+	background-color: #953864;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw2 {
+	height: 40px;
+	width: 40px;
+	background-color: #BE86A0;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw3 {
+	height: 40px;
+	width: 40px;
+	background-color: #ED4681;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw4 {
+	height: 40px;
+	width: 40px;
+	background-color: #EB2227;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw5 {
+	height: 40px;
+	width: 40px;
+	background-color: #A22037;
+	float: left;
+}
+
+.sw6 {
+	height: 40px;
+	width: 40px;
+	background-color: #D1BEB8;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw7 {
+	height: 40px;
+	width: 40px;
+	background-color: #B89F78;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw8 {
+	height: 40px;
+	width: 40px;
+	background-color: #B99E62;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw9 {
+	height: 40px;
+	width: 40px;
+	background-color: #8C6832;
+	float: left;
+	margin-right: 29px;
+}
+
+.sw10 {
+	height: 40px;
+	width: 40px;
+	background-color: #7B6442;
+	float: left;
+}
+
+nav {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	padding-top: 65px;
+	margin-left: 348px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	font-size: 100%;
+	font-weight: lighter;
+	padding: 35px;
+	display: inline-block;
+	color: #000
+}
+
+nav ul{
+	list-style-type: none;
+	margin-right: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+	color: #F6B1CF;
+}
+
+nav a:hover {
+	color: #F6B1CF;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 0px;
+}
+
+.woman1 {
+	padding-top: ;
+}
+
+.hand {
+	padding-top: ;
+	padding-bottom: ;
+}
+
+.lips {
+	float: right;
+	margin-top: 18px;
+}
+
+.productimage {
+	float: left;
+}
+
+.productimage2 {
+	float: left;
+	margin-top: -170px;
+	margin-bottom: 40px;
+}
+
+.menu-container {
+  float: left;
+}
+
+.menuli {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 100%;
+	background-color: #eee;
+	border: 3px solid #fff;
+	width: 200px;
+	padding: 15px;
+	padding-left: 20px;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.menuli a:link {
+	color: #000;
+}
+
+.menuli a:visited {
+  color: #000;
+}
+
+.menuli a:hover {
+	color: #F6B1CF;
+	text-decoration: none;
+}
+
+.promotion1 {
+	
+	padding-top: 25px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.flex-container < div {
+text-align: center;
+}
+
+.flex-container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.flex-container2 < div {
+text-align: center;
+}
+
+.topsellers {
+	
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.perfume {
+padding-top: 75px;
+}
+
+.perfume2 {
+	
+}
+.about {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+padding-top: 35px;
+}
+
+.group{
+	float: right;
+	margin-top: -55px;
+}
+
+.aboutpara {
+	float: left;
+	padding-left: 20px;
+	width: 470px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.line1 {
+	margin-left: -470px;
+	margin-top: 100px;
+	float: left;
+	
+}
+
+.line2 {
+	margin-left: -470px;
+	margin-top: 255px;
+	float: left;
+	
+}
+
+.video {
+	float: right;
+	margin-top: -55px;
+	padding-bottom: 60px;
+}
+
+.videoheader {
+	margin-top: 450px;
+}
+
+p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.push {
+	height: 0px;
+}
+
+.footer {
+	background-color: #F6B1CF;
+	padding-top: 15px;
+	text-align: center;
+	position: sticky;
+	left: 332px;
+	height: 175px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.link {
+	color: #000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+.copyright {
+	color: #000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter; 
+}
+
+.icons {
+	font-size: 250%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+	height: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+	color: #fff;
+}
+
+/* Facebook */
+.fa-facebook {
+	background: #F6B1CF;
+	color: #000;
+	margin-left: 20px;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #F6B1CF;
+	color: #000;
+	margin-left: 90px;
+}
+
+/* Instagram */
+.fa-instagram {
+	background: #F6B1CF;
+	color: #000;
+	margin-left: 100px;
+}
+
+@media only screen and (max-width: 37.5em) {
+	
+	.logo {
+	margin: auto;
+		height: 100%;
+		width: 100%;
+	
+}
+	nav li + li:before{
+    content: none;
+}
+	nav {
+		margin: auto;
+	}
+	
+	nav a {
+		height: 100%;
+		width: 100%;
+		background-color: #F6B1CF;
+		color: #fff;
+		border-style: solid;
+		border-color: #fff;
+		text-align: center;
+	}
+	
+	nav a:hover {
+		color: #000;
+	}
+	
+	.subheader {
+	margin-top: 40px;
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #eee;
+	padding-top: 15px;
+	height: 40px;
+	width: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 110%;
+	color: #494949;
+	text-align: center;
+}
+
+.subheader0 {
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:#eee;
+	height: 50px;
+	width: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-size: 50%;
+	color: #494949;
+	text-align: center;
+}
+	
+	.menu-container {
+		margin: 0;
+		width:100%;
+	}
+	
+	.aboutpara {
+		margin:auto;
+	}
+	
+	h1 {
+		margin-top: 20px;
+	}
+	
+	.productimage {
+		height: 100%;
+		width:100%;
+		margin: auto;
+	}
+	
+	.productheader {
+		text-align: center;
+		margin: auto;
+	}
+	
+	.pinksub {
+		text-align: center;
+	}
+	
+	.para {
+		margin: auto;
+	}
+	
+	.rectangle {
+		margin: auto;
+	}
+	
+	.group {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		height: 100%;
+		width:100%;
+	}
+	
+	.video {
+		margin-top: 30px;
+		height: 100%;
+		width:100%;
+	}
+	
+	menu li {
+		margin: auto;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.maptext {
+		margin: auto;
+	}
+	
+	.map {
+		margin: auto;
+	}
+	
+	.footer {
+	background-color: #eee;
+	padding-top: 10px;
+	text-align: center;
+	height: 200px;
+    width: 100%;
+	font-size: 100%;
+	}
+	
+	/* Facebook */
+.fa-facebook {
+	background: #eee;
+	color: #000;
+	margin-left: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #eee;
+	color: #000;
+	margin-left: 10px;
+}
+
+/* Instagram */
+.fa-instagram {
+	background: #eee;
+	color: #000;
+	margin-left: 10px;
+	}
+	
+	.parallax1 {
+  /* The image used */
+  background-image: url('woman1.jpg');
+  /* Full height */
+  height: 300px;
+	max-width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* image used */
+  background-image: url('hand.jpg');
+
+  /* Full height */
+	height: 595px;  
+
+  /* Scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+	
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+}
+}
+
+.link {
+}
